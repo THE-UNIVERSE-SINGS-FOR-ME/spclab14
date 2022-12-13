@@ -1,0 +1,138 @@
+/*CSS COMENTS LOOK LIKE THIS*/
+h2{
+	color:#800080;
+	border: 4px purple groove;
+	display: block;
+	padding: 10px;
+	margin: 5px;
+	text-align: center;
+}
+h1{
+	color: rgba(93, 9, 93, 1);
+	border: 15px purple groove;
+	border-radius: 0px 100px 0px 0px ;
+	font-size: 3em;
+
+}
+body{
+	background-color: #e68a00;
+}
+main{
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto ;
+}
+img{
+	border: 5px purple solid;
+	border-radius: 50px;
+	padding: 5px;
+	background: violet;
+	margin-top: 10px;
+	margin-bottom: 2px;
+	box-sizing: border-box;
+}
+.home-photo{
+	float: left;
+	padding: 5px;
+}
+
+footer{
+	color: wheat;
+}
+p{
+	color: wheat;
+}
+nav ul{
+	list-style-type: none;
+	margin: 10px;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right:5px;
+}
+nav a:link{
+	color: purple;
+}
+nav a:visited{
+	color: purple;
+}
+nav a:hover{
+	color: yellow;
+}
+nav a:active{
+	color: red;
+}
+.mobile{
+	display: none;
+}
+
+table{
+	border-collapse: collapse;
+	color: darkviolet;
+}
+
+td, th{
+	border: 2px solid black;
+	padding: 10px;
+}
+
+label{
+	float: left;
+	width: 8em;
+	padding-right: 1em;
+}
+
+input, textarea{
+	margin-bottom: 1em;
+	display: block;
+
+}
+
+[type=submit]{
+	display: block;
+	background: lightgray;
+}
+
+form{
+	text-align: center;
+	align-content: center;
+}
+
+form, table{
+   margin: 0 auto;
+   display: block;
+}
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after{
+	padding-top: 56.25%;
+	display: block;
+	content: '';
+}
+
+.video-container iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.fa-youtube-play, .fa-github, .fa-twitch{
+	color: black;
+	font-size: 9em;
+}
+.fa-fighter-jet{
+	color: grey;
+}
+.col-sm-4,.col-sm-6{
+	text-align: center;
+}
